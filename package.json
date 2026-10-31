@@ -1,0 +1,39 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "new file",
+  "keywords": [
+    "react",
+    "new",
+    "react"
+  ],
+  "homepage": "https://github.com/femin5/react-basics#readme",
+  "bugs": {
+    "url": "https://github.com/femin5/react-basics/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/femin5/react-basics.git"
+  },
+  "license": "ISC",
+  "author": "femin",
+  "type": "commonjs",
+  "scripts": {
+    "start": "parcel index.html",
+    "build":"parcel build index.html",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  },
+  "dependencies": {
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "allowScripts": {
+    "@parcel/watcher@2.6.0": true,
+    "@swc/core@1.16.20": true,
+    "lmdb@2.8.5": true,
+    "msgpackr-extract@3.0.4": true
+  }
+}
